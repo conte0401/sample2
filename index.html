@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Yuka-Honma</title>
+        <meta name="description" content="ビューティーサロン">
+        <link rel="stylecheet" href="https://unpkg.com/ress/dist/ress.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Philosopher">
+        <link rel="stylesheet"  href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="main.js" defer></script>
+    </head>
+    <body>
+        <nav class="header__nav nav" id="js-nav">
+            <ul class="nav__items nav-items">
+              <li class="nav-items__item"><a href="#">TOP</a></li>
+              <li class="nav-items__item"><a href="#about">ABOUT</a></li>
+              <li class="nav-items__item"><a href="#treatment">TREATMENT</a></li>
+              <li class="nav-items__item"><a href="#access">ACCESS</a></li>
+              <li class="nav-items__item"><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button class="header__hamburger hamburger" id="js-hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <header id="header">
+            <nav class="img">
+                <img src="img/1.jpg" alt="1">
+                <img src="img/2.jpg" alt="2">
+                <img src="img/3.jpg" alt="3">
+                <img src="img/4.jpg" alt="4">
+            </nav>
+        </header>
+    <div id="info" class="wrapper">
+        <div class="name">
+            <span class="salon">Beauty Salon</span><br>
+            <span class="honma">YUKA HONMA</span>
+        </div>
+        <div>
+            <img src="img/item.jpg" alt="item">
+        </div>
+    </div>
+    <div id="about" class="wrapper">
+        <div>
+            <h3>ABOUT</h3><br>
+            <img src="img/about.png" alt="yuka_honma"><br>
+            <dl>
+                <dt>本間</dt>
+                <dd>由佳</dd>
+            </dl>
+        </div>
+        <div>
+            <p>
+                2009年よりエステティックシャンとして<br>
+                女性の身体、お肌に対し美の追求をし、<br>
+                痩身・顔筋マッサージなどの手法を<br>
+                考案して来ました。<br>
+                1人1人の個性、女性らしさの追求を行う事で<br>
+                多くのお客様に、輝いた女性作りの<br>
+                お手伝いをさせて頂きたいと<br>
+                思っております。
+            </p>
+        </div>
+        <div>
+           
+        </div>
+    </div>
+    <div id="treatment" class="wrapper">
+        <h3>TREATMENT</h3>
+        <div class="menu">
+            <div class="haifu">
+                <p class="item1">ハイフ</p>
+            </div>
+            <div class="kyabi">
+                <p class="item2">キャビテーション</p>
+            </div>
+            <div class="suiso">
+                <p class="item1">水素</p>
+            </div>
+        </div>
+    </div>
+    <div class="reserve">
+        <a href="https://tol-app.jp/s/yuka-honma" class="reserve-link">Reserve⇀</a>
+    </div>
+    <div id="access" class="wrapper">
+        <div>
+            <h3>ACCESS</h3>
+            <p>
+                〒004-0865<br>
+                札幌市清田区北野5条4丁目<br>
+                1-2-105<br>
+                TEL 080-6082-9990
+            </p>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2917.320391131641!2d141.4396504157079!3d43.0136430015671!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2b267d2128ad%3A0x46e820f33a6698ab!2z44CSMDA0LTA4NjUg5YyX5rW36YGT5pyt5bmM5biC5riF55Sw5Yy65YyX6YeO77yV5p2h77yU5LiB55uu77yR4oiS77yS!5e0!3m2!1sja!2sjp!4v1660713084978!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div id="contact" class="wrapper">
+        <h3>CONTACT</h3>
+        <form action="#" method="post">
+            <dl>
+                <dt><label for="name">お名前</label></dt>
+                <dd><input type="text" id="name" name="yourname"></dd>
+                <dt><label for="email">メールアドレス</label></dt>
+                <dd><input type="email" id="email" name="youremail"></dd>
+                <dt><label for="kenmei">件名</label></dt>
+                <dd><input type="kenmei" id="kenmei" name="yourkenmei"></dd>
+                <dt><label for="message">メッセージ</label></dt>
+                <dd><textarea name="message" id="yourmessage" ></textarea></dd>
+            </dl>
+            <div class="button"><input type="submit" value="送信"></div>
+        </form>
+    </div>
+        <footer id="footer">
+            <div class="wrapper">
+                <p>YUKA HONMA ALL RIGHT RESERVED.</p>
+            </div>
+        </footer>
+    </body>
+</html>
